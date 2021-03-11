@@ -12,7 +12,11 @@ import { NgModuleRef } from '@angular/core';
 import { AppModule } from './app';
 import { ROOT_SELECTOR } from './app/app.component';
 
-/**
+
+export init = () =>{
+ let relegate = false;
+}
+ /**
  * Bootstrap our Angular app with a top level NgModule
  */
 export function main(): Promise<any> {
