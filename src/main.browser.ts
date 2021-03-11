@@ -31,6 +31,7 @@ export function main(): Promise<any> {
           if (oldRootElem !== null) {
             oldRootElem!.parentNode!.removeChild(oldRootElem);
           }
+          // for exp
           return appModule;
         });
       }
